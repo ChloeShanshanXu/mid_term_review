@@ -27,4 +27,85 @@ Q3:
     2) delete the first matching value found 3) move everything after the value up by one position
 
 Q4:
+    How
+does
+an
+array
+based
+list
+deliver
+O(1)
+time
+operation
+speed
+when
+accessing
+any
+element
+at
+a
+given
+index?
 
+Your
+Answer:
+In
+array
+based
+lists, objects
+are
+stored in continuous
+memory
+location.The
+address
+of
+the
+object
+needed is the
+known
+base
+address + given
+index.Therefore, it is accessible in one
+operation.
+
+Q5:
+Why is it
+important
+that
+an
+array
+based
+list
+has
+a
+contiguous
+block
+of
+memory
+for storing values?
+
+Your Answer:
+    When
+we
+set
+the
+array
+based
+list
+at
+a
+contiguous
+block, the
+elements
+are
+adjacent
+to
+each
+other, the
+address
+calculation
+of
+the
+elements
+become
+easy and fast.
